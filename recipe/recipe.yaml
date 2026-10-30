@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.3.1"
+  version: "1.4.0"
 
 package:
   name: nxstaurusgui
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/nexdatas/nxsmacrogui/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: ddd0fa5002976f8329d7b88edfe2dad83cc634dc6114a5328e0008fcf29fc65f
+  sha256: dd2f99fffb2efd1f8cf424e8ad7c78285293dbe9184f5ae9566bf82b8088a233
 
 build:
   noarch: python
@@ -22,7 +22,7 @@ requirements:
     - python ${{ python_min }}.*
     - setuptools >=61
     - pytango
-    - pip 
+    - pip
     - wheel
   run:
     - python >=${{ python_min }}
