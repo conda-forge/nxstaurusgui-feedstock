@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.4.0"
+  version: "1.5.0"
 
 package:
   name: nxstaurusgui
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/nexdatas/nxsmacrogui/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: dd2f99fffb2efd1f8cf424e8ad7c78285293dbe9184f5ae9566bf82b8088a233
+  sha256: 5e3da21317cf0ac7a7fbee02019cec3aa78287b65648cf553442071d9863b614
 
 build:
   noarch: python
